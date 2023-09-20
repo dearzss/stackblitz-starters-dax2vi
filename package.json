@@ -1,21 +1,19 @@
 {
-  "name": "stackblitz-starters-dax2vi",
-  "version": "0.0.0",
-  "private": true,
+  "name": "23---update-deployed-version-on-netlfiy",
   "dependencies": {
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "^6.16.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "react-router-dom": "6.4.3",
+    "miragejs": "0.1.46"
   },
   "devDependencies": {
-    "react-scripts": "latest"
+    "vite": "latest",
+    "@vitejs/plugin-react": "*"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   }
 }
